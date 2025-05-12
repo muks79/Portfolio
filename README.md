@@ -1,8 +1,72 @@
-# React + Vite
+💼 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully responsive, modern portfolio website built using React and Vite. It showcases personal projects, skills, and contact information. It features a clean UI, animated mobile menu, and a loading screen.
+🚀 Demo
 
-Currently, two official plugins are available:
+Live Site
+📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Add a real image or comment out if unavailable -->
+🛠️ Tech Stack
+
+    Frontend: React, Vite, Tailwind CSS
+
+    Icons: React Icons
+
+    Deployment: Render / Netlify / Vercel (choose one)
+
+📂 Folder Structure
+
+.
+├── public
+├── src
+│   ├── UI
+│   │   ├── Navbar.jsx
+│   │   ├── MobileMenu.jsx
+│   ├── components
+│   │   └── LoadingScreen.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── tailwind.config.js
+
+🧩 Features
+
+    Fully responsive layout
+
+    Smooth mobile navigation menu
+
+    Loading screen animation
+
+    Dark translucent background with blur effect
+
+    Font and animation enhancements
+
+🛠️ Installation & Run Locally
+
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+npm run dev
+
+📦 Build for Production
+
+npm run build
+
+✨ Acknowledgements
+
+    React
+
+    Vite
+
+    Tailwind CSS
+
+    Render
+
+📧 Contact
+
+Mukul Mehra
+📍 Bhimtal, Uttarakhand
+📧 mukulmehra681@gmail.com
+🔗 GitHub
