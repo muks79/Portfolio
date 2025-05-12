@@ -1,4 +1,4 @@
-import RevealOnScroll from "../Ui/RevealOnScroll";
+import RevealOnScroll from "../UI/RevealOnScroll";
 function About() {
   const skills = [
     "Html",
