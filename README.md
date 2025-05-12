@@ -8,26 +8,27 @@ This is my personal portfolio website built using **Vite + React**. It showcases
 
 ## 🚀 Tech Stack
 
-- **Frontend:** React, Vite
-- **Styling:** CSS / Tailwind CSS (optional)
+- **Frontend:** React, Vite  
+- **Styling:** CSS / Tailwind CSS (if used)  
 - **Deployment:** GitHub Pages using `gh-pages`
 
 ---
 
 ## 📂 Folder Structure
 
+```
 Portfolio/
 ├── public/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── sections/
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── assets/
+│   ├── components/
+│   ├── sections/
+│   ├── App.jsx
+│   └── main.jsx
 ├── dist/ (auto-generated)
 ├── package.json
 └── README.md
-
+```
 
 ---
 
@@ -45,41 +46,52 @@ npm install
 
 # Run the development server
 npm run dev
+```
 
-📤 Deployment
+---
 
-This site is deployed using GitHub Pages with the help of the gh-pages package.
-Build & Deploy
+## 📤 Deployment
 
+This site is deployed using **GitHub Pages** with the help of the `gh-pages` package.
+
+### Build & Deploy
+
+```bash
 # Build the project
 npm run build
 
 # Deploy to GitHub Pages
 npm run deploy
+```
 
-In package.json:
+### package.json Configuration
 
+```json
 "homepage": "https://muks79.github.io/Portfolio",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
+```
 
-✨ Features
+---
 
-    Fully responsive layout
+## ✨ Features
 
-    Clean and modern UI
+- Fully responsive layout  
+- Clean and modern UI  
+- Easy-to-navigate sections  
+- Project showcase with links  
+- Contact section with social profiles
 
-    Easy-to-navigate sections
+---
 
-    Project showcase with links
+## 🧑‍💻 Author
 
-    Contact section with social profiles
+**Mukul Mehra**  
+📍 Bhimtal, Uttarakhand  
+📫 [mukulmehra681@gmail.com](mailto:mukulmehra681@gmail.com)  
+🌐 [GitHub - @muks79](https://github.com/muks79)
 
-🧑‍💻 Author
+---
 
-Mukul Mehra
-📍 Bhimtal, Uttarakhand
-📫 mukulmehra681@gmail.com
-🌐 GitHub - @muks79
