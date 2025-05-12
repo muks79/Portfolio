@@ -38,14 +38,12 @@ npm install
 
 npm run dev
 
-
 ## 🏗 How to Build for Production
 
 npm run build
 
-
 ## 📬 Contact
 
 **Mukul Mehra**  
-📧 mukulmehra681@gmail.com  
+📧 mukulmehra681@gmail.com / 9410654982
 🌐 [GitHub](https://github.com/muks79)
