@@ -24,7 +24,7 @@ This is my personal portfolio website built using **React**, **Vite**, and **Tai
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/muks79/Portfolio.git
 
 2. Go to the project folder:
 
