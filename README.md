@@ -1,72 +1,51 @@
-💼 Personal Portfolio
+# 🌐 Personal Portfolio
 
-This is a fully responsive, modern portfolio website built using React and Vite. It showcases personal projects, skills, and contact information. It features a clean UI, animated mobile menu, and a loading screen.
-🚀 Demo
+This is my personal portfolio website built using **React**, **Vite**, and **Tailwind CSS**. It is fully responsive and includes a modern design, mobile menu, and animated loading screen.
 
-Live Site
-📸 Preview
+## 🚀 Live Demo
 
-<!-- Add a real image or comment out if unavailable -->
-🛠️ Tech Stack
+[Click here to view the live site](https://your-deployment-link.com)
 
-    Frontend: React, Vite, Tailwind CSS
+## 🛠 Tech Stack
 
-    Icons: React Icons
+- React
+- Vite
+- Tailwind CSS
+- React Icons
 
-    Deployment: Render / Netlify / Vercel (choose one)
+## 📁 Features
 
-📂 Folder Structure
+- Responsive design
+- Animated mobile menu
+- Custom loading screen
+- Smooth transitions
 
-.
-├── public
-├── src
-│   ├── UI
-│   │   ├── Navbar.jsx
-│   │   ├── MobileMenu.jsx
-│   ├── components
-│   │   └── LoadingScreen.jsx
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-└── tailwind.config.js
+## 📦 How to Run Locally
 
-🧩 Features
-
-    Fully responsive layout
-
-    Smooth mobile navigation menu
-
-    Loading screen animation
-
-    Dark translucent background with blur effect
-
-    Font and animation enhancements
-
-🛠️ Installation & Run Locally
+1. Clone the repository:
 
 git clone https://github.com/your-username/portfolio.git
+
+2. Go to the project folder:
+
 cd portfolio
+
+3. Install dependencies:
+
 npm install
+
+4. Start the development server:
+
 npm run dev
 
-📦 Build for Production
+
+## 🏗 How to Build for Production
 
 npm run build
 
-✨ Acknowledgements
 
-    React
+## 📬 Contact
 
-    Vite
-
-    Tailwind CSS
-
-    Render
-
-📧 Contact
-
-Mukul Mehra
-📍 Bhimtal, Uttarakhand
-📧 mukulmehra681@gmail.com
-🔗 GitHub
+**Mukul Mehra**  
+📧 mukulmehra681@gmail.com  
+🌐 [GitHub](https://github.com/muks79)
