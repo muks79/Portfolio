@@ -3,7 +3,7 @@ import dashboard from "../assets/dashboard-app.webp";
 import ecommerce from "../assets/e-commerce-app.png";
 import food from "../assets/food-app.jpg";
 import travel from "../assets/travel-app.jpg";
-import RevealOnScroll from "../UI/RevealOnScroll";
+import RevealOnScroll from "../Ui/RevealOnScroll";
 
 function Projects() {
   const [projects] = useState([
