@@ -1,10 +1,10 @@
 import { useState } from "react";
-import dashboard from "../assets/dashboard-app.webp";
 import ecommerce from "../assets/e-commerce-app.png";
 import food from "../assets/food-app.jpg";
 import travel from "../assets/travel-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
 import analyzer from "../assets/analyzer.png";
+import sorting from "../assets/sorting.png";
 
 function Projects() {
   const [projects] = useState([
@@ -15,10 +15,10 @@ function Projects() {
         "ClearView is a full-stack web app that analyzes HTML for accessibility issues using axe-core. It helps developers improve web accessibility and build inclusive digital experiences.",
     },
     {
-      image: ecommerce,
-      name: "E-Commerce App",
+      image: sorting,
+      name: "Sorting Visualizer",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
+        "This project is designed to help you understand various sorting algorithms by visualizing them in action. It provides a clear and interactive way to see how different algorithms process data to sort it.",
     },
     {
       image: food,
