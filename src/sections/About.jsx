@@ -8,9 +8,8 @@ function About() {
     "React",
     "TailwindCSS",
     "Node Js",
-    "AWS",
     "MongoDB",
-    "GraphQL",
+    "C++",
   ];
   return (
     <section
@@ -51,13 +50,20 @@ function About() {
                 <li>
                   <strong>
                     {" "}
-                    <em>B.S. in Computer Science </em>{" "}
+                    <em>BSC-IT </em>{" "}
                   </strong>
-                  X University (2017-2022)
-                </li>
+                  Graphic Era Hill University (2020-2023)
+                </li>{" "}
                 <li>
-                  CS50, Data Structure, Web Development, Cloud Computing..
+                  <strong>
+                    {" "}
+                    <em>MCA </em>{" "}
+                  </strong>
+                  Graphic Era Hill University (2023-2025)
                 </li>
+                {/* <li>
+                 Data Structure, Web Development..
+                </li> */}
               </ul>
             </div>
           </div>
@@ -78,9 +84,9 @@ function About() {
                 Integrated RESTful APIs and optimized performance for faster
                 load times.
               </li>
-              <li>
+              {/* <li>
                 CS50 , Data Structures, Web Development, Cloud Computing...
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

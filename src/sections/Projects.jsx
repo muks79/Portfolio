@@ -4,14 +4,15 @@ import ecommerce from "../assets/e-commerce-app.png";
 import food from "../assets/food-app.jpg";
 import travel from "../assets/travel-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
+import analyzer from "../assets/analyzer.png";
 
 function Projects() {
   const [projects] = useState([
     {
-      image: dashboard,
-      name: "Dashboard App",
+      image: analyzer,
+      name: "Accessibility Analyzer ",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
+        "ClearView is a full-stack web app that analyzes HTML for accessibility issues using axe-core. It helps developers improve web accessibility and build inclusive digital experiences.",
     },
     {
       image: ecommerce,
@@ -52,18 +53,23 @@ function Projects() {
                 <h3 className="font-semibold text-xl mb-4">{project.name}</h3>
                 <p className="text-gray-300 mb-4">{project.brief} </p>
                 <div className="flex flex-wrap sm:items-center gap-2 mb-4">
-                  {["React", "Supabase", "Vercel"].map((tech, index) => (
-                    <span
-                      key={index}
-                      className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-balance hover:bg-blue-500/20 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] transition "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                  <div className="flex flex-col text-center my-5 py-3 justify-center gap-3 border-2 border-white/10 hover:border-blue-500/30 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)]  cursor-pointer rounded-xl ">
+                  {["React", "Node", "Exress", "axe-core", "jsdom"].map(
+                    (tech, index) => (
+                      <span
+                        key={index}
+                        className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-balance hover:bg-blue-500/20 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] transition "
+                      >
+                        {tech}
+                      </span>
+                    )
+                  )}
+                  <div
+                    className="flex flex-col text-center my-5 py-3 justify-center gap-3 border-2 border-white/10 hover:border-blue-500/30 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)]  cur
+                  sor-pointer rounded-xl "
+                  >
                     <p className="text-gray-200">View Project</p>
                     <a
-                      href="https://github.com/ISHAQ98"
+                      href="https://github.com/muks79"
                       className="flex justify-between items-center font-bold text-blue-400 transition-colors hover:text-white"
                     >
                       {" "}

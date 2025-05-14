@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import { FiDownload } from "react-icons/fi";
 import resume from "../assets/resume.pdf";
 
@@ -20,9 +20,9 @@ function Home() {
           I am Mukul Mehra
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-          I am a frontend developer who loves creation interactive, scalable web
-          applications. My purpose is to build solutions that offer dynamic UI,
-          high performance and delightful UX.
+          Im a frontend developer who loves creating interactive, scalable web
+          applications. I'm also passionate about Data Structures and
+          Algorithms, with 1000+ problems solved on various platforms.
         </p>
         <div className="flex justify-center items-center space-x-4">
           <a
