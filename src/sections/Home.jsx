@@ -1,6 +1,6 @@
 import profile from "../assets/profile.jpg";
 import { FiDownload } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Mukul_Mehra.pdf";
 
 function Home() {
   return (

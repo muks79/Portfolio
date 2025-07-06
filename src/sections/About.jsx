@@ -67,7 +67,7 @@ function About() {
               </ul>
             </div>
           </div>
-          <div className="p-6 hover:-translate-y-1 transition-all">
+          {/* <div className="p-6 hover:-translate-y-1 transition-all">
             <h3 className="text-2xl text-center font-bold mb-8">
               💻 Work Experience
             </h3>
@@ -84,11 +84,11 @@ function About() {
                 Integrated RESTful APIs and optimized performance for faster
                 load times.
               </li>
-              {/* <li>
+              <li>
                 CS50 , Data Structures, Web Development, Cloud Computing...
-              </li> */}
+              </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </RevealOnScroll>
     </section>
